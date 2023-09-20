@@ -1,7 +1,15 @@
+import job.Director;
+import job.MBDSStaff;
+import job.Secretary;
+import job.Teacher;
+
 import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
+
+    public Main() {
+    }
 
     public static void main(String[] args) {
         List<MBDSStaff> staffList = new ArrayList<>();
